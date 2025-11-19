@@ -141,10 +141,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto">
             <Card className="border-red-200 shadow-xl">
               <CardHeader className="bg-red-600 text-white rounded-t-lg">
-                <CardTitle className="text-3xl flex items-center gap-3">
-                  <Icon name="Phone" size={32} />
-                  Форма вызова сотрудника
-                </CardTitle>
+                <CardTitle className="text-3xl flex items-center gap-3">Форма вызова сотрудника(ов)</CardTitle>
                 <CardDescription className="text-red-50">
                   Укажите детали ситуации и выберите уровень срочности
                 </CardDescription>
