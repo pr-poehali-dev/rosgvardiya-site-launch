@@ -162,7 +162,7 @@ const Index = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="phone">Телефон *</Label>
+                      <Label htmlFor="phone">ID сервера *</Label>
                       <Input 
                         id="phone" 
                         type="text"
