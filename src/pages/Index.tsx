@@ -81,9 +81,7 @@ const Index = () => {
                 { id: 'home', label: 'Главная', icon: 'Home' },
                 { id: 'call', label: 'Вызов', icon: 'Phone' },
                 { id: 'about', label: 'О службе', icon: 'Info' },
-                { id: 'news', label: 'Новости', icon: 'Newspaper' },
-                { id: 'faq', label: 'Вопросы', icon: 'HelpCircle' },
-                { id: 'contacts', label: 'Контакты', icon: 'MapPin' }
+                { id: 'faq', label: 'Вопросы', icon: 'HelpCircle' }
               ].map((item) => (
                 <button
                   key={item.id}
@@ -265,49 +263,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="news" className="mb-24 scroll-mt-24">
-          <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-gray-900 mb-4">Новости Росгвардии</h2>
-            <p className="text-xl text-gray-600">Актуальная информация о деятельности службы</p>
-          </div>
-          <div className="grid md:grid-cols-2 gap-6">
-            {[
-              {
-                date: '15 ноября 2024',
-                title: 'Усиление патрулирования в период праздников',
-                description: 'В связи с предстоящими праздничными днями количество патрульных нарядов будет увеличено для обеспечения безопасности граждан.'
-              },
-              {
-                date: '10 ноября 2024',
-                title: 'Открытие новой системы онлайн-вызова',
-                description: 'Запущена обновленная система вызова сотрудников с возможностью определения уровня срочности обращения.'
-              },
-              {
-                date: '5 ноября 2024',
-                title: 'Итоги работы за октябрь 2024',
-                description: 'Сотрудниками Росгвардии было обработано более 5000 обращений граждан, среднее время реагирования составило 12 минут.'
-              },
-              {
-                date: '1 ноября 2024',
-                title: 'Профилактическая работа в учебных заведениях',
-                description: 'Проведена серия встреч со студентами и школьниками по вопросам общественной безопасности.'
-              }
-            ].map((news, index) => (
-              <Card key={index} className="border-red-200 hover:border-red-400 transition-all">
-                <CardHeader>
-                  <div className="flex items-center gap-2 text-sm text-red-600 mb-2">
-                    <Icon name="Calendar" size={16} />
-                    {news.date}
-                  </div>
-                  <CardTitle className="text-xl">{news.title}</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-gray-600">{news.description}</p>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-        </section>
+
 
         <section id="faq" className="mb-24 scroll-mt-24">
           <div className="max-w-3xl mx-auto">
@@ -354,57 +310,7 @@ const Index = () => {
           </div>
         </section>
 
-        <section id="contacts" className="mb-24 scroll-mt-24">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-12">
-              <h2 className="text-4xl font-bold text-gray-900 mb-4">Контакты</h2>
-              <p className="text-xl text-gray-600">Свяжитесь с нами любым удобным способом</p>
-            </div>
-            <div className="grid md:grid-cols-2 gap-6">
-              {[
-                {
-                  icon: 'Phone',
-                  title: 'Телефон горячей линии',
-                  content: '8-800-200-40-40',
-                  description: 'Бесплатно по России, круглосуточно'
-                },
-                {
-                  icon: 'Mail',
-                  title: 'Электронная почта',
-                  content: 'info@rosgvard.ru',
-                  description: 'Ответ в течение 24 часов'
-                },
-                {
-                  icon: 'MapPin',
-                  title: 'Адрес центрального офиса',
-                  content: 'г. Москва, ул. Большая Полянка, д. 43',
-                  description: 'Прием по предварительной записи'
-                },
-                {
-                  icon: 'Globe',
-                  title: 'Официальный сайт',
-                  content: 'www.rosgvard.ru',
-                  description: 'Информация о деятельности службы'
-                }
-              ].map((contact, index) => (
-                <Card key={index} className="border-red-200 hover:shadow-lg transition-all">
-                  <CardHeader>
-                    <div className="flex items-center gap-3 mb-3">
-                      <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
-                        <Icon name={contact.icon} className="text-white" size={24} />
-                      </div>
-                      <CardTitle className="text-lg">{contact.title}</CardTitle>
-                    </div>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-900 font-semibold mb-2">{contact.content}</p>
-                    <p className="text-sm text-gray-600">{contact.description}</p>
-                  </CardContent>
-                </Card>
-              ))}
-            </div>
-          </div>
-        </section>
+
       </main>
 
       <footer className="bg-red-600 text-white py-12">
