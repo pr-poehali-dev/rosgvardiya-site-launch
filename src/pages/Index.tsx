@@ -324,7 +324,7 @@ const Index = () => {
                   className="w-16 h-16 object-contain"
                 />
                 <div>
-                  <h3 className="text-xl font-bold">Росгвардия</h3>
+                  <h3 className="text-xl font-bold">Специльная Служба Росгвардии</h3>
                   <p className="text-sm text-red-100">Служба вызова</p>
                 </div>
               </div>
@@ -360,7 +360,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-red-500 pt-8 text-center text-red-100">
-            <p>© 2024 Федеральная служба войск национальной гвардии РФ. Все права защищены.</p>
+            <p>© 2025 Специальная Служба Росгвардии. Все права защищены. | Данный сайт не является официальным государственным источником, все создано для игрового проекта ЗРП</p>
           </div>
         </div>
       </footer>
