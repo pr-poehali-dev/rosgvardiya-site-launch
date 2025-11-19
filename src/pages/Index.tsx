@@ -178,7 +178,7 @@ const Index = () => {
                       />
                     </div>
                     <div>
-                      <Label htmlFor="address">Адрес *</Label>
+                      <Label htmlFor="address">Место проишествия *</Label>
                       <Input 
                         id="address" 
                         placeholder="Улица, дом, квартира"
