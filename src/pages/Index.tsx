@@ -72,7 +72,7 @@ const Index = () => {
                 className="w-14 h-14 object-contain"
               />
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Росгвардия</h1>
+                <h1 className="text-2xl font-bold text-gray-900">РОСГVАРДИЯ</h1>
                 <p className="text-sm text-gray-600">Вызов сотрудника</p>
               </div>
             </div>
