@@ -122,7 +122,7 @@ const Index = () => {
                 size="lg" 
                 className="text-lg px-8 py-6 bg-red-600 hover:bg-red-700"
                 onClick={() => scrollToSection('call')}
-              >Вызвать наряд</Button>
+              >Вызвать экипаж</Button>
               <Button 
                 size="lg" 
                 variant="outline"
