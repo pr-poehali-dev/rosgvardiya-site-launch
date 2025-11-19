@@ -170,8 +170,8 @@ const Index = () => {
                       <Label htmlFor="phone">Телефон *</Label>
                       <Input 
                         id="phone" 
-                        type="tel"
-                        placeholder="+7 (___) ___-__-__"
+                        type="text"
+                        placeholder="f33b-4c18"
                         value={formData.phone}
                         onChange={(e) => setFormData({...formData, phone: e.target.value})}
                         required
