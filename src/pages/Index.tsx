@@ -66,9 +66,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-3">
-              <div className="w-12 h-12 bg-red-600 rounded-lg flex items-center justify-center">
-                <Icon name="Shield" className="text-white" size={28} />
-              </div>
+              <img 
+                src="https://cdn.poehali.dev/files/774d25c2-edf6-45a9-906f-8b7c855eaf09.png" 
+                alt="Герб Росгвардии" 
+                className="w-14 h-14 object-contain"
+              />
               <div>
                 <h1 className="text-2xl font-bold text-gray-900">Росгвардия</h1>
                 <p className="text-sm text-gray-600">Вызов сотрудника</p>
@@ -415,9 +417,11 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center">
-                  <Icon name="Shield" className="text-red-600" size={28} />
-                </div>
+                <img 
+                  src="https://cdn.poehali.dev/files/774d25c2-edf6-45a9-906f-8b7c855eaf09.png" 
+                  alt="Герб Росгвардии" 
+                  className="w-16 h-16 object-contain"
+                />
                 <div>
                   <h3 className="text-xl font-bold">Росгвардия</h3>
                   <p className="text-sm text-red-100">Служба вызова</p>
