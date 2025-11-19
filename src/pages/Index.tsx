@@ -122,10 +122,7 @@ const Index = () => {
                 size="lg" 
                 className="text-lg px-8 py-6 bg-red-600 hover:bg-red-700"
                 onClick={() => scrollToSection('call')}
-              >
-                <Icon name="Phone" className="mr-2" size={24} />
-                Вызвать сотрудника
-              </Button>
+              >Вызвать наряд</Button>
               <Button 
                 size="lg" 
                 variant="outline"
